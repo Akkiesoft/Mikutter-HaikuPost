@@ -22,9 +22,9 @@ Mikutterでハイクが見たいのですが
 
 参考にしたりパクったりした
 ---
-http://toshia.github.io/writing-mikutter-plugin/
-http://mikutter.blogspot.jp/2011/11/ui.html
-https://github.com/penguin2716/mikutter_update_with_media
++http://toshia.github.io/writing-mikutter-plugin/
++http://mikutter.blogspot.jp/2011/11/ui.html
++https://github.com/penguin2716/mikutter_update_with_media
 そのたいろいろ
 
 [Haiku_Settings]: http://h.hatena.ne.jp/setting/devices
