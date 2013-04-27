@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-Plugin.create :teohaiku do
-UserConfig[:teohaiku] ||= []
+Plugin.create :haiku_post do
+UserConfig[:haiku_post] ||= []
 
   settings("はてなハイク") do
     input("はてなID",:hatena_id)
