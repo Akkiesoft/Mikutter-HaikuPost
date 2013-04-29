@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-Plugin.create :haiku_post do
-UserConfig[:haiku_post] ||= []
+Plugin.create :Mikutter_HaikuPost do
+UserConfig[:Mikutter_HaikuPost] ||= []
 
   settings("はてなハイク") do
     input("はてなID",:hatena_id)
