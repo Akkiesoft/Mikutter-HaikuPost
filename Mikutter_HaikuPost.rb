@@ -27,7 +27,7 @@ UserConfig[:Mikutter_HaikuPost] ||= []
 		if err==1 then
 			Gtk::Dialog.alert("設定画面でIDとかパスワードを設定してください('ω`)")
 		else
-			message = Plugin.create(:gtk).widgetof(opt.widget).widget_post.buffer.text
+			message = Plugin[:gtk].widgetof(opt.widget).widget_post.buffer.text
 			if UserConfig[:do_multi_post] == true then
 				Service.primary.update(:message => message)
 			end
@@ -37,7 +37,7 @@ UserConfig[:Mikutter_HaikuPost] ||= []
 			)
 			defactivity "Haiku_post", "Haiku_Post"
 			activity :Haiku_Post, "たぶん投稿した。"
-			Plugin.create(:gtk).widgetof(opt.widget).widget_post.buffer.text = ''
+			Plugin[:gtk].widgetof(opt.widget).widget_post.buffer.text = ''
 		end
 	end
   end
