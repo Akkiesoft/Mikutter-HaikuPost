@@ -1,3 +1,11 @@
+THIS PLUGIN IS NOW OBSOLETE.
+=====================
+
+Mikutter-HaikuPostプラグインは、mikutter_haikuプラグインに統合されました。
++https://github.com/Akkiesoft/mikutter_haiku/
+
+-------------
+
 Mikutter-HaikuPost
 =====================
 
